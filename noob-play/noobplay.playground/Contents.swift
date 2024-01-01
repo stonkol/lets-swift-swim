@@ -57,5 +57,23 @@ let devices_pedro: [String: String] = [:] //devices is the dictionary name, then
 let devices_jules: [String: String] = [
     "phone": "Note 7",
     "laptop": "Vaio 14",
-    
 ]
+
+devices_jules["phone"]
+
+
+
+
+// FUNCTIONS
+func printInstructorsName(){
+    print("macaroni")
+}
+printInstructorsName() //call the function
+
+// with input
+func printInsNameWName(name: String){
+    print(name)
+}
+printInsNameWName(name: "Thom")
+
+//1:09
