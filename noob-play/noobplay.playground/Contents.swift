@@ -77,3 +77,33 @@ func printInsNameWName(name: String){
 printInsNameWName(name: "Thom")
 
 //1:09
+func add(firstNum: Int, to secondNum: Int) -> Int { // It will -> return an Int / "to" make it more readible, "to" can be replace by another var name
+    let sum = firstNum + secondNum
+    return sum
+}
+add(firstNum: 14, to: 53) // add(firstNum: 14, to: 53)
+
+
+
+
+// IF/ELSE
+var isCupFull = true // best practice put the name readable
+if isCupFull == true {
+    print("Don't pour more!")
+} else {
+    print("Pour more")
+}
+
+var hightScore2 = 30
+if hightScore2 > 90 {
+    print("A")
+} else if hightScore2 > 60 {
+    print("B")
+} else {
+    print("C")
+}
+
+
+
+// 1:21
+// LOOPS
