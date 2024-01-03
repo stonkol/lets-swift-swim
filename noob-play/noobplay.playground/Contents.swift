@@ -107,3 +107,32 @@ if hightScore2 > 90 {
 
 // 1:21
 // LOOPS
+let allStars = ["Perez", "Jansen", "Jimenez"]
+for player in allStars {
+    print(player)
+}
+for player in allStars where player == "Jansen" { // if it finds Jansen it will print Jansen
+    print(player)
+}
+
+for i in 0...5{ //how many times 0~6, 6 times
+    print(i)
+}
+for i in 0..<5{ //how many times 0~4, 5 times
+    print(i)
+}
+
+// Print random nums
+var randomInts: [Int] = []
+for i in 0..<5{ //how many times 0~4, 5 times
+    let randomNumber = Int.random(in: 0...5) //any number 1~100 to be introduce into the array
+    randomInts.append(randomNumber)
+}
+print(randomInts)
+
+
+
+
+
+// 1: 30
+// ENUM
